@@ -78,3 +78,5 @@ CSS Border properties
 *Css padding
     padding comes from innerside
 *css margin
+width height
+min widht height

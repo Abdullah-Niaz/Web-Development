@@ -1,0 +1,3 @@
+Box-sizing 
+    by using this our our values will be specific like width
+    otherwise it will increae by the increase of height or border
