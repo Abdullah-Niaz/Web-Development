@@ -1,0 +1,80 @@
+CSS 
+    Stands for "casecading style sheet"
+
+
+Why Learn CSS?
+    styling html tags
+    Create responsive website
+    Animation on webpage
+    Makes website development fast
+
+
+IDE 
+    There are lots of editor 
+    But I will be using the vscode 
+    YOu can use anyone
+
+Browser
+    useally we use chrome.
+
+
+3 ways to implement the css 
+    *inline styling
+    *Enternal styling 
+    *External styling(profesional and most popular way of styling the html page)
+
+
+
+Slectors in CSS
+    *Tag Slector    
+            h1{
+
+            }
+    *Class selector
+            .class{
+
+            }
+
+    *ID Slector
+            id{
+
+            }
+
+    
+
+Difference between Class and id Slectors
+
+ID Slectors
+            can only use one time in one page
+
+
+class Slector
+            can use multiple time in one page
+
+
+
+
+
+CSS Border properties
+
+        *Border-width
+        *Border-style
+        *Border-height
+        *Border-top
+        *Border-right
+        *Border-bottom
+        *Border-left
+            We can also use shortened propety 
+            Border:top
+    Css Border Syle 
+        *Solid
+        *Dotted
+        *Dashed
+        *Double
+        *Groove
+        * There are many more you can explore them on google
+
+*Css outline property
+*Css padding
+    padding comes from innerside
+*css margin

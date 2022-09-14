@@ -1,0 +1,68 @@
+/* External Styling */
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+/* Class Slectors */
+.class{
+    background-color: bisque;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ID selectors */
+#id{
+    background-color: rgb(175, 136, 88);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Css border property */
+.class{
+    border: 2px solid green; /* Shortened property of border, style, color*/
+    /* border-radius: ; */
+    /* border-bottom: ; */
+    /* border-width: ; */
+    /* There are many properties of border you can explore them on your end` */
+}
+
+
+/* css outline */
+#id{
+    outline-style: dotted;
+    outline-width: 5px;
+    outline-color: yellowgreen;
+    outline-offset: 3px;
+}
+
+/* .padding */
+/* padding comes from the innerside of the box */
+/* you can specify it from the specific side top right bottom left */
+#padding{
+    border: 2px solid gold;
+}
+.padding{
+    border: 2px dotted blue;
+    padding: 50px;
+}
+
+/* margin */
+/* margin comes from the outer side of the box */
+/* you can specify it from the specific side top right bottom left */
+#margin{
+    border: 2px solid rgb(19, 16, 3);
+}
+.margin{
+    border: 2px solid green;
+    margin: 50px;
+}
+
+
+/* Css height and widhh */
+.height-width{
+    width: 700px;
+    height: 200px;
+    border: 3px solid blueviolet;
+}
