@@ -1,0 +1,55 @@
+/* box sizing */
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+.box {
+  max-width: 600px;
+  height: auto;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+/* We can set the overflow property according to our requirements */
+.overflow {
+  width: 400px;
+  height: 200px;
+  /* overflow: auto; */
+  /* overflow: hidden; */
+  overflow: scroll;
+}
+
+/* text formating */
+/* This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. The paragraph is indented, aligned, and the space between characters is specified.  */
+#text-formating {
+  margin: 20px;
+}
+.text-formating {
+  border: 2px solid green;
+  padding: 20px;
+
+  /* text formating */
+  /* text color ,background-origin */
+  /* CSS Text Alignment and Text Direction */
+  /* direction: rtl; */
+  color: green;
+  background-color: yellow;
+
+  /* text decoration property  */
+  /* text-decoration: line-through; */
+  /* text-decoration: overline; */
+  text-decoration: underline blue;
+
+  /* css text transformtion */
+  text-transform: capitalize;
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-indent */
+  text-indent: 500px;
+  /* letter-spacing */
+  letter-spacing: 2px;
+  /* line-height */
+  line-height: 30px;
+  /* word-spacing */
+  word-spacing: 3px;
+  /* white-space */
+  white-space: 3px;
+}

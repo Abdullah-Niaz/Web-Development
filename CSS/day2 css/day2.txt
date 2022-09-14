@@ -1,3 +1,8 @@
 Box-sizing 
     by using this our our values will be specific like width
     otherwise it will increae by the increase of height or border
+
+
+overflow
+    The CSS overflow property controls what happens to content that is too big to fit into an area.
+    it will overflow the text amd make it easy for the reader to read
