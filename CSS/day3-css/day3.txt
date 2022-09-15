@@ -1,0 +1,10 @@
+CSS link styling
+    *styling
+    *hover styling, active, visited.
+
+
+Table styling
+    *Table borders
+    *Table size
+    *Alignment
+    *Table responsiveness

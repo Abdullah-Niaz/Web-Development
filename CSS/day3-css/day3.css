@@ -1,0 +1,100 @@
+body{
+    background-color: lightgreen;
+}
+
+.soical-button-link{
+    border: 2px solid blue;
+    padding: 20px;
+}
+.soical-button-link, a{
+
+    text-decoration: none;
+}
+.g , .f, .t, .i {
+    padding: 10px;
+    border: 2px slid blue;
+    background-color: white;
+}
+
+/* unvisited link */
+.g ,a:link {
+    color: red;
+  }
+  
+  /* visited link */
+.i, a:visited {
+    background-color: greenyellow;
+    color: green;
+}
+
+/* mouse over link */
+.f, a:hover {
+      background-color: rgb(166, 173, 154);
+      color: hotpink;
+    }
+    
+    /* selected link */
+.t,a:active {
+      background-color: rgb(129, 138, 179);
+    color: blue;
+  }
+
+/* .g:hover , .f:hover, .t:hover, .i:hover{
+    background-color: red;
+    color: white;
+} */
+
+
+/* ordered-list */
+.ordered-list{
+    background-color: antiquewhite;
+}
+ol li {
+    background: #cc1919;
+    color: darkred;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 35px;
+  }
+  
+/* ol li{ */
+    /* background-color: red; */
+    /* padding: 30px; */
+    /* list-style: url(/Html/images/1.jpg); */
+    /* width: 20px; */
+    /* height: 20px; */
+    /* background-repeat: no-repeat; */
+    /* border: 2px solid green; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-position: outside; */
+/* } */
+
+
+
+
+
+table, th, td{
+    border: 2px solid yellow;
+}
+table{
+    border-collapse: collapse;
+    /* width: 10px;
+    overflow-x: auto; */
+    margin-bottom: 20px;
+
+}
+.overflow{
+    width: 50%;
+    width: 50%;
+}
+td{
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+tr:hover{
+    background-color: burlywood;
+}
