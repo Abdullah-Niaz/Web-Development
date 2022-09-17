@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    margin-top:0px ;
+    background-color: green;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    /* position:; */
+}
+
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  
+  div.ex2 {
+    max-width: 200px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }

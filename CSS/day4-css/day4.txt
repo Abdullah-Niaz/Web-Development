@@ -1,0 +1,10 @@
+max-width
+    it will restrict the inline elements to keep inside the that width when it goes increase.
+
+
+CSS Layout - The position Property
+    The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+
+CSS Layout - The z-index Property
+    The z-index property specifies the stack order of an element.

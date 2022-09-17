@@ -85,7 +85,7 @@ table{
 }
 .overflow{
     width: 50%;
-    width: 50%;
+    /* width: 50%; */
 }
 td{
     text-align: center;
