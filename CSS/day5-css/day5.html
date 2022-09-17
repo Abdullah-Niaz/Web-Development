@@ -1,32 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="day5.css">
-</head>
-<body>
+    <link rel="stylesheet" href="day5.css" />
+  </head>
+  <body>
+    <h1>Overlapping elements</h1>
 
-<h1>Overlapping elements</h1>
+    <p>
+      If two positioned elements overlap each other without a z-index specified,
+      the element defined last in the HTML code will be shown on top:
+    </p>
 
-<p>If two positioned elements overlap each other without a z-index specified,
-the element defined last in the HTML code will be shown on top:</p>
-
-<div class="container">
-  <div class="black-box">Black box at the z indez 1</div>
-  <div class="gray-box">Gray box at the z indez 3</div>
-  <div class="green-box">Green box at the z indez 2</div>
-</div>
-
+    <div class="container">
+      <div class="black-box">Black box at the z indez 1</div>
+      <div class="gray-box">Gray box at the z indez 3</div>
+      <div class="green-box">Green box at the z indez 2</div>
+    </div>
 
     <div class="fl">
-        <img src="pine.jpg" alt="pine apple images">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veritatis quasi aut sit omnis laudantium! Ullam error suscipit delectus voluptates? Deleniti reiciendis ex nemo non maiores rem eum quaerat voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minus odio, quia nemo consequuntur quidem dignissimos eum quod vitae assumenda veniam harum architecto, exercitationem iusto pariatur laborum, debitis voluptates facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus libero illo, perspiciatis impedit, eum corporis labore sunt fuga rerum autem placeat amet fugit ullam voluptatibus ducimus quos. Officiis, libero ducimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ipsa itaque vel necessitatibus cumque fugiat, quo quas, vitae magnam deserunt sunt? Est nulla labore itaque distinctio unde sed nemo error.</p>
+      <img src="pine.jpg" alt="pine apple images" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        veritatis quasi aut sit omnis laudantium! Ullam error suscipit delectus
+        voluptates? Deleniti reiciendis ex nemo non maiores rem eum quaerat
+        voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Similique minus odio, quia nemo consequuntur quidem dignissimos eum quod
+        vitae assumenda veniam harum architecto, exercitationem iusto pariatur
+        laborum, debitis voluptates facilis. Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Natus libero illo, perspiciatis impedit,
+        eum corporis labore sunt fuga rerum autem placeat amet fugit ullam
+        voluptatibus ducimus quos. Officiis, libero ducimus? Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit. Illum ipsa itaque vel
+        necessitatibus cumque fugiat, quo quas, vitae magnam deserunt sunt? Est
+        nulla labore itaque distinctio unde sed nemo error.
+      </p>
     </div>
-</body>
+
+    <h2>Without Clearfix</h2>
+
+    <p>
+      This image is floated to the right. It is also taller than the element
+      containing it, so it overflows outside of its container:
+    </p>
+
+    <div>
+      <img
+        class="img1"
+        src="pine.jpg"
+        alt="Pineapple"
+        width="170"
+        height="170"
+      />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      imperdiet...
+    </div>
+
+    <h2 style="clear: right">With Clearfix</h2>
+    <p>
+      We can fix this by adding a clearfix class with overflow: auto; to the
+      containing element:
+    </p>
+
+    <div class="clearfix">
+      <img
+        class="img2"
+        src="pine.jpg"
+        alt="Pineapple"
+        width="170"
+        height="170"
+      />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      imperdiet...
+    </div>
+  </body>
 </html>
-
-
