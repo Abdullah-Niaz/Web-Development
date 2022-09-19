@@ -3,11 +3,19 @@
   padding: 0px;
 }
 .head{
-  background-color: #4CAF50;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+background: #1c4528;
+box-shadow:  -24px 24px 48px #102717,
+             24px -24px 48px #286339;
   margin-top: 0px;
   padding: 10px;
   text-align: center;
   margin-bottom: 20px;
+}
+.head:hover{
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .black-box{
