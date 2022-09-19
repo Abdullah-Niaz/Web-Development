@@ -11,19 +11,23 @@
 }
 
 .black-box{
+  border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  -24px 24px 48px #808080,
+             24px -24px 48px #ffffff;
     position: relative;
-    background-color: rgb(0, 0, 0);
     width: 50%;
     height: 200px;
-    color: white;
     margin: 30px;
     text-align: left;
-    /* margin-left: 50px; */
     z-index: 1;
 }
 .gray-box{
     position: absolute;
-    background-color:gray;
+    border-radius: 50px;
+background: #28c356;
+box-shadow:  -24px 24px 48px #176f31,
+             24px -24px 48px #39ff7b;
     width: 50%;
     margin-top: -150px;
     text-align: right;
@@ -35,7 +39,10 @@
     position:absolute;
      margin-top: -100px;
     text-align: left;
-    background-color: rgb(89, 206, 128);
+    border-radius: 50px;
+background: #c32828;
+box-shadow:  24px 24px 48px #6f1717,
+             24px 24px 48px #ff3939;
     z-index: 2;
     width: 50%;
     height: 200px;
@@ -60,7 +67,7 @@
 
 
 div {
-    border: 3px dotted #4CAF50;
+    border: 3px dotted #000000;
     padding: 5px;
   }
   
