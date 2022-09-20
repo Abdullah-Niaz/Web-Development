@@ -17,7 +17,10 @@ box-shadow:  -24px 24px 48px #102717,
   font-size: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.para{
+  background-color: #286339;
+  color: white;
+}
 .black-box{
   border-radius: 50px;
 background: #e0e0e0;
