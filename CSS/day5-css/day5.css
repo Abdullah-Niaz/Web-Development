@@ -3,6 +3,8 @@
   padding: 0px;
 }
 .head{
+  position: sticky;
+  /* background-attachment: fixed; */
   border-radius: 0px 0px 10px 10px;
   color: white;
 background: #1c4528;
