@@ -90,16 +90,38 @@ div {
   
   .img2 {
     float: right;
+    margin-left: 10px;
   }
   
   .clearfix {
     overflow: auto;
+    text-align: justify;
+  }
+  .clearfix > p{
+    /* float: left; */
+    /* padding-right: -10px; */
+
   }
 
 
+.flo{
+  border: 2px dotted green;
+  margin-bottom: opx 10px 10px 0px;
+  display: flex;
+}
 
-
-
+.first-para{
+  border: 2px solid blue;
+    float: left;
+  margin: 10px;
+  max-width: 600px;
+}
+.second-para{
+  border: 2px solid rgb(10, 10, 10);
+  max-width: 600px;
+  margin: 10px;
+  float: right;
+}
 
 
 
