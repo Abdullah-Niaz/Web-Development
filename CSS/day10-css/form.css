@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+
+.banner img{
+    width: 100%;
+    height:400px;
+    position: sticky;
+}
+
+
+
+
+
+.form-style{
+    background-color: rgb(88, 77, 77);
+    margin: 0px;
+}
+form{
+    margin-top: 20px;
+    /* padding-top: 20px; */
+}
+.form-s{
+    align-items: center;
+    background-color: burlywood;
+
+
+    margin-left: 300px;
+    width: 50%;
+}
+/* .form-inside{
+    margin-top: 10px;
+} */
+.form-group{
+    padding: 10px;
+}
+
+.form-group label{
+    display: block;
+
+}
+.form-group input[type="text"],input[type="password"],input[type="email"],textarea{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.form-group input[type="submit"]{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.form-group input[type="submit"]:hover{
+    background-color: yellowgreen;
+    text-transform: capitalize;
+    
+}
+
+
+
+.footer{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #333;
+}
