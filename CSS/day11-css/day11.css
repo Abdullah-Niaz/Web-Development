@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    border: 2px solid forestgreen;
+    float: left;
+}
+.para{
+    padding-left: 10px;
+    display:inline-block;
+    width: 31.33%;
+    border: 2px solid black;
+}
