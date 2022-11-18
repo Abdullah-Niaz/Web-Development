@@ -1,0 +1,116 @@
+/* Decendant Slectors */
+/* div p {
+    color: blue;
+} */
+
+/* Child Slectors */
+/* div>p{
+    color: green;
+} */
+
+/* Adjacent Slectors */
+/* div + p {
+    background-color: green;
+} */
+
+
+
+/* Siblings Slectors  */
+/* div ~ p {
+    background-color: yellow;
+} */
+
+
+
+.lin{
+    background-color: #0000FF;
+    padding: 30px;
+}
+a {
+    padding: 0px 40px  0px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 40px;
+}
+/* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #eeeeee;
+    background-color: #00FF00;
+    border-radius: 20px;
+}
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+  /* p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  } */
+/* 
+  p:first-child {
+    color: blue;
+  } */
+
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+  p::last-line {
+    color: #2fd157;
+    font-variant: small-caps;
+  }
+
+
+.im img{
+    padding: 60px;
+    display: inline-block;
+}
+img{
+    width: 260px;
+    height: 260px;
+    opacity: 10;
+  }
+/* img:hover{
+    width: 660px;
+    height: 660px;
+    opacity: 0.6;
+  } */
+
+.box{
+    display: flex;
+}
+.box p {
+    padding: 20px;
+}
+.one-1{
+    background-color: green;
+    opacity: 0.3;
+}
+.one-2{
+    background-color: rgb(255, 102, 0);
+    opacity: 0.5;
+}
+.one-3{
+    background-color: rgb(44, 41, 197);
+    opacity: 0.8;
+}
+.one-4{
+    background-color: rgb(189, 82, 82);
+    opacity: 1;
+}
