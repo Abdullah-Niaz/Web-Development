@@ -1,0 +1,63 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    /* background: url('./cr/img.bck.jpg') no-repeat; */
+    background-color: rgb(98, 112, 112);
+    background-size: cover;
+}
+
+.Login form {
+    width: 350px;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.Login form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.Login Form input {
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 1px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.Login Form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 0px 90px;
+    padding: 10px 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0%;
+}
+
+.Login Form button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.label {
+    font-size: 20px;
+
+}
