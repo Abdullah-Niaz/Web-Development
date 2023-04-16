@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(142deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 118, 0.8465511204481793) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.link{
+    margin: 20px;
+    display: flex;
+}
+.link > li{
+    list-style-type:none;
+    
+}
+.link > li > a{
+    padding: 0px 60px 0px 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.link > li > a:visited{
+    color: rgb(62, 250, 20);
+    /* font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif; */
+} 
+.link > li > a:hover{
+    color: red;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link > li > a:active{
+    color: rgb(72, 43, 219);
+    background-color: green;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}

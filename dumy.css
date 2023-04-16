@@ -1,0 +1,23 @@
+/* * {
+    background-image: url(images/1.jpg);
+    /* opacity: 0.4; */
+/* } */ 
+
+.border{
+    border:2px dotted green ;
+}
+.border1{
+    border:2px outset green ;
+}
+.border2{
+    border:2px inset green ;
+}
+.border3{
+    border:2px ridge green ;
+}
+.border4{
+    border:2px groove green ;
+}
+.border5{
+    border:2px double green ;
+}
