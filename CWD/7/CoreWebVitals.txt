@@ -1,0 +1,16 @@
+Cls: 
+    * Cummulative Layout Shift
+    * How much page is shifting while loading
+
+LCP: 
+    * largest Contentful Paint
+    * How much time is taken by a content which of largest size, like images,videos etc
+
+FID: 
+    * First input Delay 
+    * How much time servers take to respond back, if a user fills a form or anything related to input
+
+
+
+Meta Tags
+Meta Description 
